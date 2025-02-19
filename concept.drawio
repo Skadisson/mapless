@@ -1,0 +1,109 @@
+<mxfile host="Electron" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) draw.io/26.0.9 Chrome/128.0.6613.186 Electron/32.2.5 Safari/537.36" version="26.0.9">
+  <diagram name="Seite-1" id="WA3kmyzkygMobN11kOkq">
+    <mxGraphModel dx="1434" dy="854" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="827" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="wiCAhsAQ2YeR7aQhWIy8-1" value="mapless" style="text;strokeColor=none;fillColor=none;html=1;fontSize=24;fontStyle=1;verticalAlign=middle;align=left;" vertex="1" parent="1">
+          <mxGeometry x="40" y="40" width="360" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="wiCAhsAQ2YeR7aQhWIy8-2" value="" style="shape=note;whiteSpace=wrap;html=1;backgroundOutline=1;darkOpacity=0.05;" vertex="1" parent="1">
+          <mxGeometry x="80" y="230" width="80" height="120" as="geometry" />
+        </mxCell>
+        <mxCell id="wiCAhsAQ2YeR7aQhWIy8-3" value="source.json" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontStyle=1" vertex="1" parent="1">
+          <mxGeometry x="60" y="170" width="120" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="wiCAhsAQ2YeR7aQhWIy8-12" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="wiCAhsAQ2YeR7aQhWIy8-4" target="wiCAhsAQ2YeR7aQhWIy8-11">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="wiCAhsAQ2YeR7aQhWIy8-4" value="" style="shape=note;whiteSpace=wrap;html=1;backgroundOutline=1;darkOpacity=0.05;" vertex="1" parent="1">
+          <mxGeometry x="200" y="230" width="80" height="120" as="geometry" />
+        </mxCell>
+        <mxCell id="wiCAhsAQ2YeR7aQhWIy8-5" value="demo.json" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontStyle=1" vertex="1" parent="1">
+          <mxGeometry x="180" y="170" width="120" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="wiCAhsAQ2YeR7aQhWIy8-8" value="source.json is containing all datasets to transform in a JSON Array made up of JSON Objects." style="text;html=1;align=left;verticalAlign=top;whiteSpace=wrap;rounded=0;fontSize=10;" vertex="1" parent="1">
+          <mxGeometry x="70" y="370" width="100" height="160" as="geometry" />
+        </mxCell>
+        <mxCell id="wiCAhsAQ2YeR7aQhWIy8-9" value="demo.json is containing 5 or more examples of the desired outcome, using 5 actual datasets from the source.json." style="text;html=1;align=left;verticalAlign=top;whiteSpace=wrap;rounded=0;fontSize=10;" vertex="1" parent="1">
+          <mxGeometry x="190" y="370" width="100" height="160" as="geometry" />
+        </mxCell>
+        <mxCell id="wiCAhsAQ2YeR7aQhWIy8-10" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="wiCAhsAQ2YeR7aQhWIy8-2" target="wiCAhsAQ2YeR7aQhWIy8-4">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="wiCAhsAQ2YeR7aQhWIy8-16" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="wiCAhsAQ2YeR7aQhWIy8-11" target="wiCAhsAQ2YeR7aQhWIy8-15">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="wiCAhsAQ2YeR7aQhWIy8-11" value="sourceID&lt;div&gt;demoID&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="300" y="260" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="wiCAhsAQ2YeR7aQhWIy8-13" value="One unique identifying property is chosen and used in the source datasets as well as in the demo datasets, so the algorithm knows what datasets to compare." style="text;html=1;align=left;verticalAlign=top;whiteSpace=wrap;rounded=0;fontSize=10;" vertex="1" parent="1">
+          <mxGeometry x="310" y="370" width="100" height="160" as="geometry" />
+        </mxCell>
+        <mxCell id="wiCAhsAQ2YeR7aQhWIy8-14" value="I/O" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontStyle=1" vertex="1" parent="1">
+          <mxGeometry x="300" y="170" width="120" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="wiCAhsAQ2YeR7aQhWIy8-21" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="wiCAhsAQ2YeR7aQhWIy8-15" target="wiCAhsAQ2YeR7aQhWIy8-19">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="wiCAhsAQ2YeR7aQhWIy8-15" value="SciKit:&lt;br&gt;Cosine Similarity" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="440" y="260" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="wiCAhsAQ2YeR7aQhWIy8-17" value="Mapping" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontStyle=1" vertex="1" parent="1">
+          <mxGeometry x="440" y="170" width="120" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="wiCAhsAQ2YeR7aQhWIy8-18" value="Via the Cosine Similarity Algorithm in SciKit a Map between the Source and Demo Datasets is generated. The Map consists of 1-to-1 Properties and Altered Value Properties for String Formatting." style="text;html=1;align=left;verticalAlign=top;whiteSpace=wrap;rounded=0;fontSize=10;" vertex="1" parent="1">
+          <mxGeometry x="450" y="370" width="100" height="160" as="geometry" />
+        </mxCell>
+        <mxCell id="wiCAhsAQ2YeR7aQhWIy8-22" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;exitX=0.5;exitY=0;exitDx=0;exitDy=0;" edge="1" parent="1" source="wiCAhsAQ2YeR7aQhWIy8-19" target="wiCAhsAQ2YeR7aQhWIy8-15">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="wiCAhsAQ2YeR7aQhWIy8-27" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="wiCAhsAQ2YeR7aQhWIy8-19" target="wiCAhsAQ2YeR7aQhWIy8-25">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="wiCAhsAQ2YeR7aQhWIy8-19" value="Validation /&lt;br&gt;Modification" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="580" y="260" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="wiCAhsAQ2YeR7aQhWIy8-20" value="I/O" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontStyle=1" vertex="1" parent="1">
+          <mxGeometry x="580" y="170" width="120" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="wiCAhsAQ2YeR7aQhWIy8-23" value="The User is shown the Map, they can accept it or enter pairs of Properties in order to modify the Map to their desires." style="text;html=1;align=left;verticalAlign=top;whiteSpace=wrap;rounded=0;fontSize=10;" vertex="1" parent="1">
+          <mxGeometry x="590" y="370" width="100" height="160" as="geometry" />
+        </mxCell>
+        <mxCell id="wiCAhsAQ2YeR7aQhWIy8-31" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="wiCAhsAQ2YeR7aQhWIy8-25" target="wiCAhsAQ2YeR7aQhWIy8-29">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="wiCAhsAQ2YeR7aQhWIy8-25" value="String Templates&lt;div&gt;for Formatting&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="720" y="260" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="wiCAhsAQ2YeR7aQhWIy8-26" value="Templating" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontStyle=1" vertex="1" parent="1">
+          <mxGeometry x="720" y="170" width="120" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="wiCAhsAQ2YeR7aQhWIy8-28" value="In order to account for changes in Altered Values, String Templates are generated for the Transformation." style="text;html=1;align=left;verticalAlign=top;whiteSpace=wrap;rounded=0;fontSize=10;" vertex="1" parent="1">
+          <mxGeometry x="730" y="370" width="100" height="160" as="geometry" />
+        </mxCell>
+        <mxCell id="wiCAhsAQ2YeR7aQhWIy8-29" value="Transformation &lt;br&gt;for 1-to-1 &lt;br&gt;and Altered Values" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="860" y="260" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="wiCAhsAQ2YeR7aQhWIy8-30" value="Transformation" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontStyle=1" vertex="1" parent="1">
+          <mxGeometry x="860" y="170" width="120" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="wiCAhsAQ2YeR7aQhWIy8-32" value="" style="shape=note;whiteSpace=wrap;html=1;backgroundOutline=1;darkOpacity=0.05;" vertex="1" parent="1">
+          <mxGeometry x="1000" y="230" width="80" height="120" as="geometry" />
+        </mxCell>
+        <mxCell id="wiCAhsAQ2YeR7aQhWIy8-33" value="output.json" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontStyle=1" vertex="1" parent="1">
+          <mxGeometry x="980" y="170" width="120" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="wiCAhsAQ2YeR7aQhWIy8-34" value="The output of the Transformation of all Source Datasets is generated in form of a JSON File." style="text;html=1;align=left;verticalAlign=top;whiteSpace=wrap;rounded=0;fontSize=10;" vertex="1" parent="1">
+          <mxGeometry x="990" y="370" width="100" height="160" as="geometry" />
+        </mxCell>
+        <mxCell id="wiCAhsAQ2YeR7aQhWIy8-35" value="Per Property Pair Values are either being transported (1-to-1 Values) or reformatted via String Formatting (Altered Values)." style="text;html=1;align=left;verticalAlign=top;whiteSpace=wrap;rounded=0;fontSize=10;" vertex="1" parent="1">
+          <mxGeometry x="870" y="370" width="100" height="160" as="geometry" />
+        </mxCell>
+        <mxCell id="wiCAhsAQ2YeR7aQhWIy8-36" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="wiCAhsAQ2YeR7aQhWIy8-29" target="wiCAhsAQ2YeR7aQhWIy8-32">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
