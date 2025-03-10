@@ -1,14 +1,26 @@
 from bin import File, SciKit, Template
+import argparse
 
 
 def main():
-    """TBI: args"""
+
+    parser = argparse.ArgumentParser(description="Import JSON data mapless.")
+    parser.add_argument("demo_path", type=str, help="Path to the demo JSON file containing at least 5 demos for the target data structure.")
+    parser.add_argument("source_path", type=str, help="Path to the source JSON file containing all source datasets in the original source data structure.")
+
+    args = parser.parse_args()
+
     source_file_path = 'tmp/source.json'
     demo_file_path = 'tmp/demo.json'
     target_file_path = 'tmp/output.json'
     source_identifier = 'ean'
     demo_identifier = 'Artikelnummer'
     similarity_threshold = 0.3
+
+    if args.demo_path:
+        demo_file_path = args.demo_path
+    if args.source_path:
+        source_file_path = args.source_path
 
     file_processor = File.File(source_file_path, demo_file_path, target_file_path)
     source_values, demo_values, source, demo = file_processor.get_paired_source_and_demo_values(source_identifier, demo_identifier)
